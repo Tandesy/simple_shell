@@ -170,7 +170,7 @@ char *dir;
 (void) wpd;
 
 exec = is_executable(datash);
-if (exec == -1)
+	if (exec == -1)
 	return (1);
 	if (exec == 0)
 {

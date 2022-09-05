@@ -109,7 +109,7 @@ if (!(indx->len_var) && !(indx->len_val))
 }
 else if (indx->len_var && !(indx->len_val))
 {
-for (k = 0; k < indx->len_var; k++)
+	for (k = 0; k < indx->len_var; k++)
 	j++;
 	i--;
 }

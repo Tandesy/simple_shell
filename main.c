@@ -43,7 +43,7 @@ datash->_environ = malloc(sizeof(char *) * (i + 1));
 
 for (i = 0; environ[i]; i++)
 {
-dash->_environ[i] = _strdup(environ[i]);
+datash->_environ[i] = _strdup(environ[i]);
 }
 
 	datash->_environ[i] = NULL;
