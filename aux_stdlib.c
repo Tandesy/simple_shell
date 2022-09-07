@@ -18,7 +18,7 @@ else
 {
 	n1 = n;
 	}
-while (n1 > 9)
+	while (n1 > 9)
 	{
 		lenght++;
 		n1 = n1 / 10;
